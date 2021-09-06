@@ -1,0 +1,3 @@
+interface imx_gpio
+imx_gpio_peripheral_base 0x0209c000
+imx_gpio_swd_nums 4 6

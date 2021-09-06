@@ -1,0 +1,2 @@
+pyserial>=3.5
+gpio>=0.3.0

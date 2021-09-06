@@ -1,0 +1,4 @@
+init;
+flash read_bank nrf52.flash _FLASH_FILE_;
+flash read_bank nrf52.uicr _UICR_FILE_;
+exit;

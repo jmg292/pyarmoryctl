@@ -1,0 +1,7 @@
+init;
+reset halt;
+nrf51 mass_erase;
+flash write_bank nrf52.uicr _UICR_FILE_;
+flash write_bank nrf52.flash _FLASH_FILE_;
+reset;
+exit
